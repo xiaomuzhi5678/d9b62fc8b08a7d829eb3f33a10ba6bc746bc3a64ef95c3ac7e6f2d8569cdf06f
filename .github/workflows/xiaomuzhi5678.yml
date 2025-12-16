@@ -1,9 +1,9 @@
 name: xiaomuzhi5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
-
+    - cron: '16 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiaomuzhi5678
         env:
-          gigkd0: ${{ secrets.gigkd0 }}
+          frvg8131: ${{ secrets.frvg8131 }}
         run: |
-          echo $gigkd0 | jq -r .xe2387 | /bin/bash
-          echo $tnajh22 | jq -r .r982 | /bin/bash
-          echo $ph43 | jq -r .kevb1 | /bin/bash
-          echo $plu03425 | jq -r .swxp4 | /bin/bash
+          echo $frvg8131 | jq -r .othn6957 | /bin/bash
+          echo $f147 | jq -r .u6 | /bin/bash
+          echo $oh1 | jq -r .t9 | /bin/bash
 
